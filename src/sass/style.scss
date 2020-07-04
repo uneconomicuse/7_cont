@@ -1,5 +1,6 @@
 .container {
     width: 1170px;
+    margin: 0 auto;
 }
 
 @import 'libs/bootstrap-reboot.min.scss';
@@ -9,3 +10,4 @@
 
 @import 'blocks/header.scss';
 @import 'blocks/button.scss';
+@import 'blocks/promo.scss';

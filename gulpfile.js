@@ -57,9 +57,9 @@ gulp.task('icons', function() {
 });
 
 gulp.task('image', function() {
-    return gulp.src("src/image/**/*")
+    return gulp.src("src/img/**/*")
         .pipe(imagemin())
-        .pipe(gulp.dest("dist/image"));
+        .pipe(gulp.dest("dist/img"));
 });
 
 gulp.task('default', gulp.parallel('watch', 'styles', 'browser-sync', 'scripts', 'fonts', 'icons', 'image', 'html'));
