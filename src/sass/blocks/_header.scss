@@ -14,7 +14,7 @@
     &__text {
         width: 139px;
         height: 31px;
-        margin: 20px 0 0 29px;
+        margin: 19px 0 0 29px;
         font-family: $creg;
         font-size: 15px;
         line-height: 17px;
@@ -29,16 +29,16 @@
             align-items: flex-end;
         }
         &_text {
-            margin: 10px 0 6px 0;
+            margin: 7px -3px 0 0;
             font-family: $clight;
             font-size: 13px;
-            line-height: 13px;
+            line-height: 18px;
             color: #001e28;
         }
         &_number {
             font-family: $rbold;
             font-size: 17px;
-            line-height: 17px;
+            line-height: 20px;
             a {
                 text-decoration: none;
                 color: #001e28;
