@@ -1,0 +1,14 @@
+.button {
+    &__header {
+        font-family: $cbold;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #fff;
+        width: 170px;
+        height: 45px;
+        padding: 16px 29px 19px 29px;
+        margin: 15px 0 5px 29px;
+        background-color: #ffaf02;
+        border-radius: 22.5px;
+    }
+}
