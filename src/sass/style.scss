@@ -1,0 +1,10 @@
+.container {
+    width: 1170px;
+}
+
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/fonts.scss';
+
+@import 'base/variables.scss';
+
+@import 'blocks/header.scss';
