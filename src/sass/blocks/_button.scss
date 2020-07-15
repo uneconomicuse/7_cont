@@ -11,4 +11,17 @@
         background-color: #ffaf02;
         border-radius: 22.5px;
     }
+    &__cons {
+        width: 270px;
+        height: 55px;
+        margin: 0 0 0 0;
+        background-color: #ffaf02;
+        border-radius: 27.5px;
+        border: none;
+        padding: 3px 0 0 11px;
+        font-family: $cbold;
+        font-size: 12px;
+        line-height: 1.2;
+        color: #ffffff;
+    }
 }

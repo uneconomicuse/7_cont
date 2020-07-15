@@ -1,0 +1,33 @@
+.form__cons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+    img {
+        width: 15px;
+        height: 18px;
+        position: relative;
+        left: 28px;
+    }
+    input {
+        padding: 3px 0 0 59px;
+        width: 270px;
+        height: 55px;
+        border: 1.0px solid #d1d1d1;
+        border-radius: 27.5px;
+        font-family: $clight;
+        font-size: 15px;
+        line-height: 15px;
+        color: #999999;
+        &:nth-child(1) {
+            background-image: url('../icons/avatar_(1)_673.png');
+            background-repeat: no-repeat;
+            background-position: 11% 50%;
+        }
+        &:nth-child(2) {
+            margin-right: 30px;
+            background-image: url('../icons/telephone_(1)_676.png');
+            background-repeat: no-repeat;
+            background-position: 11% 50%;
+        }
+    }
+}
