@@ -40,26 +40,28 @@
         font-size: 18px;
         line-height: 18px;
         color: #001e28;
-    }
-    &__tab_active {
-        width: 370px;
-        height: 77px;
-        background-color: #ffaf02;
-        border-radius: 20.0px 20.0px 0.0px 0.0px;
-        text-align: center;
-        font-family: $cbold;
-        font-size: 18px;
-        line-height: 18px;
-        color: #ffffff;
+        cursor: pointer;
+        &_active {
+            width: 370px;
+            height: 77px;
+            background-color: #ffaf02;
+            border-radius: 20.0px 20.0px 0.0px 0.0px;
+            text-align: center;
+            font-family: $cbold;
+            font-size: 18px;
+            line-height: 18px;
+            color: #ffffff;
+            cursor: pointer;
+        }
     }
     &__content {
         display: flex;
         margin-top: 40px;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
-    &__content_active {
-        display: flex;
+        &_active {
+            display: flex;
+        }
     }
     &__item {
         width: 370px;
@@ -91,6 +93,7 @@
             color: #001e28;
         }
         a {
+            text-decoration: none;
             margin-top: 22px;
             display: block;
             text-align: center;
