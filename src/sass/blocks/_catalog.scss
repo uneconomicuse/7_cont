@@ -1,0 +1,112 @@
+.catalog {
+    padding: 96px 0 100px 0;
+    &__header {
+        text-align: center;
+        font-family: $rbold;
+        font-size: 30px;
+        line-height: 30px;
+        color: #001e28;
+    }
+    &__subheader {
+        margin-top: 30px;
+        text-align: center;
+        font-family: $cbold;
+        font-size: 22px;
+        line-height: 22px;
+        color: #001e28;
+    }
+    &__tabs {
+        margin-top: 70px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    &__divider {
+        width: auto;
+        height: 5px;
+        background-color: #ffaf02;
+    }
+    &__tab {
+        width: 370px;
+        height: 77px;
+        padding: 19px 0;
+        background-color: #d8f0f0;;
+        border-radius: 20.0px 20.0px 0.0px 0.0px;
+        text-align: center;
+        font-family: $cbold;
+        font-size: 18px;
+        line-height: 18px;
+        color: #001e28;
+    }
+    &__tab_active {
+        width: 370px;
+        height: 77px;
+        background-color: #ffaf02;
+        border-radius: 20.0px 20.0px 0.0px 0.0px;
+        text-align: center;
+        font-family: $cbold;
+        font-size: 18px;
+        line-height: 18px;
+        color: #ffffff;
+    }
+    &__content {
+        display: flex;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__content_active {
+        display: flex;
+    }
+    &__item {
+        width: 370px;
+        min-height: 415px;
+        border: 2.0px solid #d8f0f0;
+        padding: 13px 13px 25px 13px;
+        &:hover {
+            border: 2.0px solid #ffaf02;
+        }
+        &_img {
+            width: 340px;
+            height: 245px;
+            background: url('../img/pryamougolnik_6_832.png') center (center / cover) no-repeat;
+        }
+        &_subtitle {
+            text-align: center;
+            margin-top: 28px;
+            font-family: $cbold;
+            font-size: 18px;
+            line-height: 18px;
+            color: #001e28;
+        }
+        &_descr {
+            text-align: center;
+            margin-top: 14px;
+            font-family: $creg;
+            font-size: 14px;
+            line-height: 14px;
+            color: #001e28;
+        }
+        a {
+            margin-top: 22px;
+            display: block;
+            text-align: center;
+            font-family: $cbold;
+            font-size: 18px;
+            line-height: 33px;
+            color: #001e28;
+            background-image: linear-gradient(to top, #ffaf02, #ffaf02);
+            background-position: 50% 100%;
+            background-repeat: no-repeat;
+            background-size: 28% 6px;
+            transition: all 1s;
+            &:hover {
+                background-size: 28% 17px;
+                cursor: pointer;
+            }
+        }
+    }
+}
