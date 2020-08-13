@@ -1,0 +1,27 @@
+@mixin subheader {
+    text-align: center;
+    font-family: $rbold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #001e28;
+}
+
+@mixin phoneContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 209px 0 168px;
+    &_text {
+        font-family: $creg;
+        font-size: 16px;
+        line-height: 16px;
+        color: #001e28;
+    }
+    a {
+        font-family: $rbold;
+        font-size: 20px;
+        line-height: 20px;
+        color: #001e28;
+    }
+}

@@ -1,0 +1,74 @@
+.special {
+    padding: 95px 0;
+
+    background-color: #d8f0f0;
+    background-image: linear-gradient(149.0deg, #d8f0f0 15%, #fdfde0 84%);
+    &__header {
+        @include subheader
+    }
+    &__subheader {
+        margin-top: 20px;
+
+        text-align: center;
+        font-family: $cbold;
+        font-size: 22px;
+        line-height: 41px;
+        color: #001e28;
+        span {
+            display: inline-block;
+
+            width: 189px;
+            height: 38px;
+
+            color: #ffffff;
+            background-color: #ffaf02;
+        }
+    }
+    &__image {
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 68px;
+    }
+    &__adv {
+        display: flex;
+        justify-content: space-around;
+        &_item {
+            display: flex;
+            align-items: center;
+
+            margin-top: 70px;
+        }
+    }
+    &__form {
+        width: 1170px;
+        height: 370px;
+        margin-top: 70px;
+        padding: 58px 141px 70px;
+        border: 10px solid #d8f0f0;
+
+        background-color: #ffffff;
+        background-image: url('../img/form_back.png');
+        background-position: 50% 50%;
+        &_header {
+            font-family: $cbold;
+            font-size: 22px;
+            line-height: 22px;
+            color: #001e28;
+            text-align: center;
+        }
+        &_subheader {
+            margin-top: 30px;
+
+            font-family: $clight;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 300;
+            color: #001e28;
+            text-align: center;
+        }
+        &_phone {
+            @include phoneContact
+        }
+    }
+}

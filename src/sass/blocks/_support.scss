@@ -1,0 +1,79 @@
+.support {
+    padding: 104px 0;
+    &__churchWrapper {
+        display: flex;
+    }
+    &__descr {
+        margin-left: 30px;
+        padding: 0 0;
+    }
+    &__header {
+        @include subheader;
+        //Модификатор для хидера в этом блоке
+        &-ta {
+            text-align: start;
+            line-height: 35px;
+        }
+    }
+    &__subheader {
+        margin-top: 66px;
+
+        font-family: $creg;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #001e28;
+    }
+    &__hText {
+        margin-top: 61px;
+
+        font-family: $cbold;
+        font-size: 22px;
+        line-height: 1.2;
+        color: #001e28;
+    }
+    &__text {
+        margin-top: 20px;
+
+        font-family: $creg;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #001e28;
+    }
+    &__form {
+        width: 1170px;
+        height: 397px;
+        margin-top: 64px;
+        padding: 58px 141px 70px;
+        border: 10px solid #d8f0f0;
+
+        background-color: #ffffff;
+        background-image: url('../img/pryamougolnik_11_kopiya_2_1324.png');
+        background-position: 50% 50%;
+        &_header {
+            font-family: $cbold;
+            font-size: 22px;
+            line-height: 27px;
+            color: #001e28;
+            text-align: center;
+        }
+        &_subheader {
+            margin-top: 20px;
+
+            font-family: $clight;
+            font-size: 16px;
+            line-height: 27px;
+            color: #001e28;
+            text-align: center;
+        }
+        &_subheaderTwo {
+            font-family: $clight;
+            font-size: 16px;
+            line-height: 27px;
+            color: #001e28;
+            text-align: center;
+        }
+        &_phone {
+            @include phoneContact;
+        }
+    }
+}
