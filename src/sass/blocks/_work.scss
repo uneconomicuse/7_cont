@@ -1,0 +1,94 @@
+.work {
+    padding: 88px 0 100px;
+    &__header {
+        @include subheader;
+        line-height: 36px;
+    }
+    &__subheader {
+        margin-top: 26px;
+
+        font-family: $cbold;
+        font-size: 22px;
+        line-height: 22px;
+        color: #001e28;
+        text-align: center;
+    }
+    &__staff {
+        display: flex;
+        justify-content: flex-start;
+
+        margin-top: 71px;
+    }
+    &__descr {
+        margin-left: 30px;
+        &_header {
+            font-family: $cbold;
+            font-size: 22px;
+            line-height: 22px;
+            color: #001e28;
+        }
+        &_subheader {
+            margin-top: 30px;
+
+            font-family: $clight;
+            font-size: 17px;
+            line-height: 17px;
+            color: #001e28;
+        }
+        &_exp {
+            margin-top: 49px;
+            ul {
+                padding: 0 0;
+                font-family: $clight;
+                font-size: 17px;
+                line-height: 40px;
+                color: #001e28;
+                list-style-type: none;
+                li {
+                    margin-left: 5px; 
+                    img {
+                        margin-right: 26px;
+                    }
+                }
+            }
+        }
+    }
+    &__team {
+        margin-top: 46px;
+        &_header {
+            font-family: $cbold;
+            font-size: 22px;
+            line-height: 22px;
+            color: #001e28;
+            text-align: center;
+        }
+        &_wrapper {
+            display: flex;
+
+            margin-top: 70px;
+            padding: 0 0 0 100px;
+        }
+        &_item {
+            display: flex;
+            &-descr {
+                margin-left: 30px;
+                margin-right: 53px;
+            }
+            &-header {
+                font-family: $cbold;
+                font-size: 16px;
+                line-height: 16px;
+                color: #001e28;
+            }
+            &-subheader {
+                margin-top: 14px;
+
+                font-family: $clight;
+                font-size: 14px;
+                line-height: 20px;
+                color: #001e28;
+            }
+        }
+
+    }
+}
