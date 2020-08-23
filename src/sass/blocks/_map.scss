@@ -1,0 +1,72 @@
+.map {
+    display: flex;
+
+    background-color: #d8f0f0;
+    background-image: linear-gradient(149.0deg, #d8f0f0 23%, #fdfde0 76%);
+
+    &__descr {
+        padding: 100px 0 0 98px;
+        &_header {
+            @include subheader;
+        }
+        &_adress {
+            margin-top: 69px;
+
+            font-family: $creg;
+            font-size: 18px;
+            line-height: 1.2;
+            color: #001e28;
+        }
+        &_open {
+            margin-top: 40px;
+
+            font-family: $creg;
+            font-size: 15px;
+            line-height: 1.2;
+            color: #007ca5;
+        }
+        &_week {
+            margin-top: 20px;
+
+            font-family: $creg;
+            font-size: 18px;
+            line-height: 1.2;
+            color: #001e28;
+        }
+        &_contacts {
+            margin-top: 39px;
+
+            font-family: $creg;
+            font-size: 15px;
+            line-height: 1.2;
+            color: #007ca5;
+        }
+        &_number {
+            margin-top: 20px;
+
+            font-family: $cbold;
+            font-size: 18px;
+            line-height: 1.2;
+            color: #001e28;
+        }
+        &_question {
+            margin-top: 39px;
+
+            font-family: $creg;
+            font-size: 18px;
+            line-height: 1.2;
+            color: #001e28;
+        }
+        &_mail {
+            display: block;
+            margin-top: 19px;
+
+            font-family: $creg;
+            font-size: 18px;
+            line-height: 1.2;
+            color: #001e28;
+            text-decoration: underline;
+        }
+    }
+}
+
